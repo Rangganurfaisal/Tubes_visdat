@@ -64,7 +64,7 @@ with tab1:
     st.plotly_chart(scatter_fig, use_container_width=True)
 
     # Visualization 3: Purchase Frequency by Payment Method
-    st.subheader("Frekuensi Pembelian bBerdasarkan Payment Method")
+    st.subheader("Frekuensi Pembelian Berdasarkan Payment Method")
     pie_fig = px.pie(
         filtered_data,
         names="Preferred Payment Method",
